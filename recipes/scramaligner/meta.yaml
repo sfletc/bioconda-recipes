@@ -26,7 +26,7 @@ requirements:
 
   run:
     - python
-    - matplotlib
+    - matplotlib-base
     - seaborn
     - numpy
     - pandas
