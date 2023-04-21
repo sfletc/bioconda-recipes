@@ -28,7 +28,7 @@ requirements:
     - python>=3.7
     - matplotlib-base
     - seaborn
-    - numpy>=1.23
+    - numpy-base
     - pandas
 
 test:
