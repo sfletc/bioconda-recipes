@@ -33,7 +33,7 @@ requirements:
 
 test:
   commands:
-    - scramAligner --help
+    - scram2 --help
     - adaptTrim --help
     - scram2Plot --help
 
