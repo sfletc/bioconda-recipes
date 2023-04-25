@@ -4,7 +4,7 @@
 # Build Go app
 export GOPATH="${SRC_DIR}/gopath"
 export PATH="$GOPATH/bin:$PATH"
-go build -o "${PREFIX}/bin/scramAligner" .
+go build -o "${PREFIX}/bin/scram2" .
 
 # Install Python scripts
 # Install adaptTrim
