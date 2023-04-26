@@ -1,5 +1,5 @@
 {% set name = "scramaligner" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   # path: /repo/scramaligner/scramAligner
   url: https://github.com/sfletc/scramAligner/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8c57d250d1d4ac00c11c823d6290d8f329ada508db1b1d114db1e37730fb2bec
+  sha256: e693df70f5f5d0c236f64f5de905b4b12cd6c23bf92fec9f1720b0bb162b5883
 
 build:
   number: 0
