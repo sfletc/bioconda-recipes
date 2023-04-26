@@ -8,7 +8,7 @@ package:
 source:
   # path: /repo/scramaligner/scramAligner
   url: https://github.com/sfletc/scramAligner/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5270cbfd1d02784149156042a62fa2e40a26626e218295c22a3190524b3827fa
+  sha256: 8c57d250d1d4ac00c11c823d6290d8f329ada508db1b1d114db1e37730fb2bec
 
 build:
   number: 0
