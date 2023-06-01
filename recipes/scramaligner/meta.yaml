@@ -34,21 +34,11 @@ requirements:
 test:
   commands:
     - scram2 --help
-    - adaptTrim --help
     - scram2Plot --help
 
 about:
-  home: https://github.com/username/{{ name }}
-  license: MIT
-  license_family: MIT
+  home: https://github.com/sfletc/scramAligner
+  license: BSD-3
+  license_family: BSD
   license_file: LICENSE
-  summary: A bioinformatics application combining Go and Python scripts
-  description: |
-    This application is a bioinformatics tool that combines a Go-based app and Python scripts for processing and analyzing biological data. It utilizes the Go programming language for the main application and Python scripts for additional functionality.
-  doc_url: https://github.com/username/{{ name }}/wiki
-  dev_url: https://github.com/username/{{ name }}/issues
-
-extra:
-  identifiers:
-    - doi:your_doi_here
-    - pmid:your_pmid_here
+  summary: ScramAligner is a bioinformatics packages that trims small RNA read adapters, aligns small RNA reads and plots the alignments.
